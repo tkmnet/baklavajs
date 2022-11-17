@@ -1,6 +1,7 @@
 <template>
     <button
         class="baklava-toolbar-entry baklava-toolbar-button"
+        type="button"
         :disabled="!viewModel.commandHandler.canExecuteCommand(command)"
         :title="title"
         @click="viewModel.commandHandler.executeCommand(command)"
