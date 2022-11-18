@@ -41,7 +41,7 @@ export default defineComponent({
             { command: PASTE_COMMAND, title: "Paste", icon: Icons.Clipboard },
             { command: UNDO_COMMAND, title: "Undo", icon: Icons.ArrowBackUp },
             { command: REDO_COMMAND, title: "Redo", icon: Icons.ArrowForwardUp },
-            { command: CREATE_SUBGRAPH_COMMAND, title: "Create Subgraph", icon: Icons.Hierarchy2 },
+            //{ command: CREATE_SUBGRAPH_COMMAND, title: "Create Subgraph", icon: Icons.Hierarchy2 },
         ];
 
         const subgraphCommands = [
